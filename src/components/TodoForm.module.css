@@ -1,0 +1,42 @@
+.todo_list {
+    padding: 20px 50px;
+    background-color: rgba(95, 212, 177, 0.5);
+    width: 300px;
+    border-radius: 20px;
+}
+.todo_list h1 {
+    font-style: italic;
+    text-align: center;
+    color: #006D4C;
+    text-decoration: underline;
+    text-shadow: 2px 2px 5px #FFF673;
+}
+.addTodo {
+    width: 200px;
+    height: 30px;
+    margin: 0 10px 10px 0;
+    outline: none;
+    border: 1px solid #5FD4B1;
+    border-radius: 20px;
+    color: #006D4C;
+    font-style: italic;
+}
+.addTodo:focus {
+    border: 1px solid #FF5900;
+}
+button {
+    background-color: #5FD4B1;
+    width: 80px;
+    height: 32px;
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid #5FD4B1;
+    color: #A63A00;
+}
+button:hover {
+    cursor: pointer;
+}
+button:active {
+    width: 79px; 
+    height: 31px; 
+}
